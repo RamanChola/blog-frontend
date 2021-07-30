@@ -1,0 +1,25 @@
+.img {
+  width: 100vh;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.writeFormGroup {
+  display: flex;
+  align-items: flex-end;
+}
+.container {
+  max-width: 100vh !important;
+
+}
+
+
+@media only screen and (max-width: 700px) {
+  .img {
+    width: 60vh;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+}

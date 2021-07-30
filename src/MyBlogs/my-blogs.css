@@ -1,0 +1,14 @@
+.my-blogs{
+    display: flex;   
+}
+.center{
+   margin-top:5%;
+}
+@media only screen and (max-width: 700px) {
+    .my-blogs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+   
+  }
