@@ -203,17 +203,17 @@ export const Profile = () => {
           >
             <Grid item>
               <Typography align="center" variant="subtitle2">
-                640 posts
+                64 posts
               </Typography>
             </Grid>
             <Grid item style={{ padding: "0 8px" }}>
               <Typography align="center" variant="subtitle2">
-                640 followers
+                64 followers
               </Typography>
             </Grid>
             <Grid item>
               <Typography align="center" variant="subtitle2">
-                460 following
+                46 following
               </Typography>
             </Grid>
             <Typography variant="body1" style={{ paddingTop: "15px" }}>

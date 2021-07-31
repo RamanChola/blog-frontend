@@ -197,21 +197,21 @@ export const Profile = () => {
           >
             <Grid item>
               <Typography align="center" variant="subtitle2">
-                640 posts
+                {user && user.data.blogs ? `${user.data.blogs.length} posts` :" 0 posts"}
               </Typography>
             </Grid>
             <Grid item style={{ padding: "0 8px" }}>
               <Typography align="center" variant="subtitle2">
-                640 followers
+                0 followers
               </Typography>
             </Grid>
             <Grid item>
               <Typography align="center" variant="subtitle2">
-                460 following
+                0 following
               </Typography>
             </Grid>
             <Typography variant="body1" style={{ paddingTop: "15px" }}>
-              Raman Lorem Ipsum has been the industry's standard dummy text ever
+              Lorem Ipsum has been the industry's standard dummy text ever
               since the 1500s, when an unknown printer took a galley of type
               Chola
             </Typography>
