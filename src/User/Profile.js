@@ -196,17 +196,17 @@ export const Profile = () => {
             style={{ marginTop: "14px" }}
           >
             <Grid item>
-              <Typography align="center" variant="subtitle1">
+              <Typography align="center" variant="subtitle2">
                 640 posts
               </Typography>
             </Grid>
-            <Grid item style={{ padding: "0 9px" }}>
-              <Typography align="center" variant="subtitle1">
+            <Grid item style={{ padding: "0 8px" }}>
+              <Typography align="center" variant="subtitle2">
                 640 followers
               </Typography>
             </Grid>
             <Grid item>
-              <Typography align="center" variant="subtitle1">
+              <Typography align="center" variant="subtitle2">
                 460 following
               </Typography>
             </Grid>
