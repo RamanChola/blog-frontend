@@ -243,7 +243,7 @@ export const Profile = () => {
             borderRadius={16}
             height={160}
           >
-            <Typography variant="h4">No place found!</Typography>
+            <Typography variant="h4">No post found!</Typography>
             <Button component={Link} to={"/addblog"} variant="outlined">
               Create New
             </Button>
