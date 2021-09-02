@@ -104,8 +104,6 @@ export const Profile = () => {
     }
   };
 
-
-  console.log(file);
   return (
     <div className={classes.root}>
       <Grid
@@ -141,7 +139,7 @@ export const Profile = () => {
                       alt="profilePic"
                       src={
                         user && user.data.profilePic
-                          ? `https://blog-by-raman-backend.herokuapp.com/api/uploads/images/${user.data.profilePic}`
+                          ? `http://blognode-env.eba-tkh3abgb.ap-south-1.elasticbeanstalk.com/uploads/images/${user.data.profilePic}`
                           : "https://static.thenounproject.com/png/3643785-200.png"
                       }
                       className={classes.img}
@@ -182,7 +180,7 @@ export const Profile = () => {
               alt="profilePic"
               src={
                 user && user.data.profilePic
-                  ? `https://blog-by-raman-backend.herokuapp.com/uploads/images/${user.data.profilePic}`
+                  ? `http://blognode-env.eba-tkh3abgb.ap-south-1.elasticbeanstalk.com/uploads/images/${user.data.profilePic}`
                   : "https://static.thenounproject.com/png/3643785-200.png"
               }
               className={classes.img}

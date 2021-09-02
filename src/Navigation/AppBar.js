@@ -173,7 +173,7 @@ export default function NavBar() {
                   <Avatar
                     alt="User"
                     className={classes.small}
-                    src={`https://blog-by-raman-backend.herokuapp.com/uploads/images/${user.data.profilePic}`}
+                    src={`http://blognode-env.eba-tkh3abgb.ap-south-1.elasticbeanstalk.com/uploads/images/${user.data.profilePic}`}
                   />
                 ) : (
                   <AccountCircle />

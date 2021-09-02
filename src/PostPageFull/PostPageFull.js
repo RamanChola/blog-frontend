@@ -79,7 +79,7 @@ export default function PostPageFull() {
         {post && post.image && (
           <CardMedia
             className={classes.media}
-            image={`https://blog-by-raman-backend.herokuapp.com/uploads/images/${post.image}`}
+            image={`http://blognode-env.eba-tkh3abgb.ap-south-1.elasticbeanstalk.com/uploads/images/${post.image}`}
             title={post.title}
           />
         )}
