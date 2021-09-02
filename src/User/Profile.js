@@ -183,8 +183,7 @@ export const Profile = () => {
             )}
           </form>
         </Grid>
-        <Grid item sm={8} xs={8} style={{ maxWidth: "40vh",display: "flex",
-      justifyContent: "center"}}>
+        <Grid item sm={8} xs={8} style={{ maxWidth: "40vh"}}>
           <Typography variant="h5">
             {user
               ? `${user.data.username} ${user.data.lastname}`
