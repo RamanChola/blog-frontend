@@ -65,7 +65,7 @@ export default function MediaCard({ post }) {
           {post.image && (
             <CardMedia
               classes={mediaStyles}
-              image={`http://blognode-env.eba-tkh3abgb.ap-south-1.elasticbeanstalk.com/uploads/images/${post.image}`}
+              image={`https://bloggiter.xyz/uploads/images/${post.image}`}
               title={post.title}
             />
           )}
@@ -92,7 +92,7 @@ export default function MediaCard({ post }) {
             <Avatar
               alt="User"
               className={classes.small}
-              src={`http://blognode-env.eba-tkh3abgb.ap-south-1.elasticbeanstalk.com/uploads/images/${user.data.profilePic}`}
+              src={`https://bloggiter.xyz/uploads/images/${user.data.profilePic}`}
             />
           ) : (
             <AccountCircle />

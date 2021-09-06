@@ -100,7 +100,7 @@ export const Profile = () => {
       );
       history.push("/");
     } catch (error) {
-      console.log(error)
+      console.log(error);
     }
   };
 
@@ -139,8 +139,8 @@ export const Profile = () => {
                       alt="profilePic"
                       src={
                         user && user.data.profilePic
-                          ? `http://blognode-env.eba-tkh3abgb.ap-south-1.elasticbeanstalk.com/uploads/images/${user.data.profilePic}`
-                          : "https://static.thenounproject.com/png/3643785-200.png"
+                          ? `https://bloggiter.xyz/uploads/images/${user.data.profilePic}`
+                          : ""
                       }
                       className={classes.img}
                     />
@@ -180,8 +180,8 @@ export const Profile = () => {
               alt="profilePic"
               src={
                 user && user.data.profilePic
-                  ? `http://blognode-env.eba-tkh3abgb.ap-south-1.elasticbeanstalk.com/uploads/images/${user.data.profilePic}`
-                  : "https://static.thenounproject.com/png/3643785-200.png"
+                  ? `https://bloggiter.xyz/uploads/images/${user.data.profilePic}`
+                  : ""
               }
               className={classes.img}
             />
@@ -201,17 +201,17 @@ export const Profile = () => {
           >
             <Grid item>
               <Typography align="center" variant="subtitle2">
-                64 posts
+              {user && user.data.blogs ? `${user.data.blogs.length} posts` :" 0 posts"}
               </Typography>
             </Grid>
             <Grid item style={{ padding: "0 8px" }}>
               <Typography align="center" variant="subtitle2">
-                64 followers
+                0 followers
               </Typography>
             </Grid>
             <Grid item>
               <Typography align="center" variant="subtitle2">
-                46 following
+                0 following
               </Typography>
             </Grid>
             <Typography variant="body1" style={{ paddingTop: "15px" }}>
