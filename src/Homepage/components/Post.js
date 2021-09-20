@@ -65,7 +65,7 @@ export default function MediaCard({ post }) {
           {post.image && (
             <CardMedia
               classes={mediaStyles}
-              image={`https://bloggiter.xyz/uploads/images/${post.image}`}
+              image={`https://blog-backend-8u9eu.ondigitalocean.app/uploads/images/${post.image}`}
               title={post.title}
             />
           )}
@@ -92,7 +92,7 @@ export default function MediaCard({ post }) {
             <Avatar
               alt="User"
               className={classes.small}
-              src={`https://bloggiter.xyz/uploads/images/${user.data.profilePic}`}
+              src={`https://blog-backend-8u9eu.ondigitalocean.app/uploads/images/${user.data.profilePic}`}
             />
           ) : (
             <AccountCircle />

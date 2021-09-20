@@ -79,7 +79,7 @@ export default function PostPageFull() {
         {post && post.image && (
           <CardMedia
             className={classes.media}
-            image={`https://bloggiter.xyz/uploads/images/${post.image}`}
+            image={`https://blog-backend-8u9eu.ondigitalocean.app/uploads/images/${post.image}`}
             title={post.title}
           />
         )}

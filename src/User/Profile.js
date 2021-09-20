@@ -145,7 +145,7 @@ export const Profile = () => {
                     alt="profilePic"
                     src={
                       user && user.data.profilePic
-                        ? `https://bloggiter.xyz/uploads/images/${user.data.profilePic}`
+                        ? `https://blog-backend-8u9eu.ondigitalocean.app/uploads/images/${user.data.profilePic}`
                         : ""
                     }
                     className={classes.img}

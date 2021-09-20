@@ -173,7 +173,7 @@ export default function NavBar() {
                   <Avatar
                     alt="User"
                     className={classes.small}
-                    src={`https://bloggiter.xyz/uploads/images/${user.data.profilePic}`}
+                    src={`https://blog-backend-8u9eu.ondigitalocean.app/uploads/images/${user.data.profilePic}`}
                   />
                 ) : (
                   <AccountCircle />
